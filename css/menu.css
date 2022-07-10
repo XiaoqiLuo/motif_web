@@ -1,0 +1,30 @@
+/*
+This is a css script for menuf.php page
+This was adapted from W3SCHOOL
+source here:
+https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_dividers
+*/
+/*unordered list*/
+ul {
+    list-style-type: none; /*list-item marker:none*/
+    margin: 0;
+    padding: 0; /*border*/
+    overflow: hidden; /*hide overflow*/
+    background-color: rgb(163, 163, 163);
+  }
+  
+  li {
+    float: left; /*left float*/
+    border-right:1px solid rgb(163, 163, 163); /*color*/
+  }
+  
+  li a {
+    display: block; /*Displays an element as a block element*/ 
+    color: white; /*text color*/
+    text-align: center; /*text align*/
+    padding: 14px 16px; /*create space around element's content*/
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(0, 0, 0); /*when hover, color change to black*/
+  }
